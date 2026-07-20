@@ -10,7 +10,7 @@ The project demonstrates how Artificial Intelligence, Machine Learning, and Data
 
 🚀 Features
 Ocean Conditions Panel
-Temperature input
+ Temperature input
 Salinity input
 Chlorophyll concentration input
 AI Fish Presence Prediction
