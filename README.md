@@ -123,6 +123,65 @@ Prediction
 
 Interactive Streamlit Dashboard
 
+## Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/Spurthi1237/Smart_Fish-AI-Project.git
+```
+
+2. Navigate to the project folder
+
+```bash
+cd Smart_Fish-AI-Project
+```
+
+3. Create a virtual environment (Recommended)
+
+**Windows**
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+**Linux/macOS**
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+4. Install the required dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+## How to Run
+
+1. Open a terminal inside the project directory.
+
+2. Start the Streamlit application.
+
+```bash
+streamlit run dashboard/app.py
+```
+
+3. Open your browser and visit
+
+```
+http://localhost:8501
+```
+
+4. Adjust the ocean parameters using the dashboard controls and click **Predict** to view:
+- Fish hotspot probability
+- Fishing recommendation
+- Interactive hotspot map
+- Heatmap
+- Environmental insights
+
 📊 Input Parameters
 Water Temperature (°C)
 Salinity (PSU)
